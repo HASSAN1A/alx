@@ -1,0 +1,215 @@
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: black;
+}
+.jh {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+.logo {
+  font-size: 50px;
+}
+.r {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(21, 217, 236);
+  color: white;
+}
+
+.a {
+  text-orientation: initial;
+  background-position: center;
+  height: 600px;
+  text-align: center;
+  background: url("https://images.pexels.com/photos/1001851/pexels-photo-1001851.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+.dd {
+  text-orientation: initial;
+  background-position: center;
+  height: 700px;
+  text-align: center;
+  background: url("https://cdn.pixabay.com/photo/2021/01/15/17/01/green-5919790__340.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+.i {
+  text-orientation: initial;
+  background-position: center;
+  height: 600px;
+  text-align: center;
+  background: url("https://images.pexels.com/photos/1038000/pexels-photo-1038000.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+.c {
+  text-orientation: initial;
+  background-position: center;
+  height: 600px;
+  text-align: center;
+  background: url("https://cdn.pixabay.com/photo/2021/04/21/13/20/cherry-blossoms-6196363__340.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+
+.d {
+  float: left;
+
+  height: 820px;
+  text-align: left;
+  background: url("https://images.pexels.com/photos/7578201/pexels-photo-7578201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+
+.twitter-tweet {
+  text-align: center;
+}
+.b {
+  text-orientation: initial;
+  background-position: center;
+  height: 700px;
+  text-align: center;
+  background: url("https://images.pexels.com/photos/7635156/pexels-photo-7635156.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+.g {
+  text-orientation: initial;
+  background-position: center;
+  height: 600px;
+  text-align: center;
+  background: url("https://images.pexels.com/photos/5982369/pexels-photo-5982369.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+.f {
+  text-orientation: initial;
+  background-position: center;
+  height: 600px;
+  text-align: center;
+  background: url("https://images.pexels.com/photos/7577949/pexels-photo-7577949.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+.e {
+  text-orientation: initial;
+  background-position: center;
+  height: 600px;
+  text-align: center;
+  background: url("https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+.j {
+  text-orientation: initial;
+  background-position: center;
+  height: 600px;
+  text-align: center;
+  background: url("https://images.pexels.com/photos/6483586/pexels-photo-6483586.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: rgb(165, 213, 184);
+  color: black;
+}
+
+.header a.active {
+  background-color: rgb(21, 217, 236);
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+body {
+  padding-top: 30px;
+  background-image: url();
+  background-repeat: no-repeat, repeat;
+  flex-direction: column;
+  flex: auto;
+}
+main {
+  flex-direction: row;
+  flex: auto;
+}
+article {
+  flex: 2;
+  overflow-y: auto;
+  float: left;
+  text-align: left;
+  padding-right: 300px;
+}
+
+.navbar {
+  text-align: center;
+  list-style-type: none;
+  margin: 40;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  color: white;
+}
+
+aside {
+  height: 330px;
+  width: 600px;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  flex: 1;
+  overflow-y: auto;
+  background-color: lightgray;
+}
