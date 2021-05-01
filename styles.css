@@ -17,6 +17,7 @@ footer {
   padding: 3px;
   background-color: rgb(21, 217, 236);
   color: white;
+  height: 50px;
 }
 
 .a {
@@ -44,7 +45,7 @@ footer {
   background-position: center;
   height: 600px;
   text-align: center;
-  background: url("https://images.pexels.com/photos/1038000/pexels-photo-1038000.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background: url("https://cdn.pixabay.com/photo/2020/04/20/20/47/drip-5069808__340.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -52,9 +53,9 @@ footer {
 .c {
   text-orientation: initial;
   background-position: center;
-  height: 600px;
+  height: 670px;
   text-align: center;
-  background: url("https://cdn.pixabay.com/photo/2021/04/21/13/20/cherry-blossoms-6196363__340.jpg");
+  background: url("https://cdn.pixabay.com/photo/2017/07/14/07/39/matrix-2502935__340.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -77,7 +78,7 @@ footer {
 .b {
   text-orientation: initial;
   background-position: center;
-  height: 700px;
+  height: 670px;
   text-align: center;
   background: url("https://images.pexels.com/photos/7635156/pexels-photo-7635156.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
@@ -89,7 +90,7 @@ footer {
   background-position: center;
   height: 600px;
   text-align: center;
-  background: url("https://images.pexels.com/photos/5982369/pexels-photo-5982369.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background: url("https://cdn.pixabay.com/photo/2018/04/03/04/36/hand-3285912__340.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -119,11 +120,12 @@ footer {
   background-position: center;
   height: 600px;
   text-align: center;
-  background: url("https://images.pexels.com/photos/6483586/pexels-photo-6483586.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background: url("https://cdn.pixabay.com/photo/2021/04/25/12/23/flowers-6206279__340.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
   padding-top: 30px;
+  color: white;
 }
 
 .header {
